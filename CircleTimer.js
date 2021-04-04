@@ -109,7 +109,8 @@ export default class CircleTimer extends React.Component {
     if(m<9){
         mDisplay = "0"+m
     }
-    return hDisplay +":"+ mDisplay;
+     //sDisplay was missing- Yash verma
+    return hDisplay +":"+ mDisplay +":" +sDisplay;
     //return h+m+s
 }
 
